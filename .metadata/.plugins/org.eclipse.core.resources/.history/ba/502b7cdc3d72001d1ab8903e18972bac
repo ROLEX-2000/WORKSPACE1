@@ -1,0 +1,53 @@
+package com.example.project.controller;
+
+import org.springframework.http.HttpStatus;
+
+import com.example.project.model.Responsedata;
+import com.example.project.model.Responsemeta;
+
+public class MyResponse<T> {
+	 private HttpStatus status;
+	 private Responsemeta responsemeta;
+	 private Responsedata responsedata;
+	 
+	 
+	public MyResponse(HttpStatus status, Responsemeta responsemeta, Responsedata responsedata) {
+		super();
+		this.status = status;
+		this.responsemeta = responsemeta;
+		this.responsedata = responsedata;
+	}
+
+
+	public HttpStatus getStatus() {
+		return status;
+	}
+
+
+	public void setStatus(HttpStatus status) {
+		this.status = status;
+	}
+
+
+	public Responsemeta getResponsemeta() {
+		return responsemeta;
+	}
+
+
+	public void setResponsemeta(Responsemeta responsemeta) {
+		this.responsemeta = responsemeta;
+	}
+
+
+	public Responsedata getresponsedata() {
+		return responsedata;
+	}
+
+
+	public void setresponsedata(Responsedata responsedata) {
+		this.responsedata = responsedata;
+	}
+	 
+	
+
+}

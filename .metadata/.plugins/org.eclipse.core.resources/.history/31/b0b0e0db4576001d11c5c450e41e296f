@@ -1,0 +1,8 @@
+package com.example.mongodb.repository;
+
+public class Snippet {
+	public static void main(String[] args) {
+		spring.mvc.pathmatch.matching-strategy = ANT_PATH_MATCHER
+	}
+}
+

@@ -1,0 +1,15 @@
+package com.example.demo.promotion;
+
+
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="promotion")
+public class Promotion {
+	
+
+	
+	
+	
+
+}

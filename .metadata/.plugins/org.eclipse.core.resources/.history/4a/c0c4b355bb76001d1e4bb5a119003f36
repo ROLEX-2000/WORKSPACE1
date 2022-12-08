@@ -1,0 +1,25 @@
+package com.example.demo.promotion;
+
+import java.util.List;
+
+public class Categories {
+	
+	private List<Category>categories;
+
+	public Categories(List<Category> categories) {
+		super();
+		this.categories = categories;
+	}
+
+	public List<Category> getCategories() {
+		return categories;
+	}
+
+	public void setCategories(List<Category> categories) {
+		this.categories = categories;
+	}
+	
+	
+	
+
+}

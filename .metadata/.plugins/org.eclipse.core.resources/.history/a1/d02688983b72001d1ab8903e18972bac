@@ -1,0 +1,114 @@
+package com.example.project.model;
+
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="Promotion")
+public class Promotion {
+	
+	private String id;
+	
+	private String description;
+	
+	private String PromotionBrand;
+	
+	private Date enddate;
+	
+	private String PromotionLine;
+	
+	private  String offerDetails;
+	
+	private Date  startdate;
+	
+	private enum type{
+		     saleprice,
+		     buyfree, 
+		     ernfreegift
+	}
+	
+	private Brand brand;
+	
+	private List<Categories> categories;
+
+	public Promotion() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public String getPromotionBrand() {
+		return PromotionBrand;
+	}
+
+	public void setPromotionBrand(String promotionBrand) {
+		PromotionBrand = promotionBrand;
+	}
+
+	public Date getEnddate() {
+		return enddate;
+	}
+
+	public void setEnddate(Date enddate) {
+		this.enddate = enddate;
+	}
+
+	public String getPromotionLine() {
+		return PromotionLine;
+	}
+
+	public void setPromotionLine(String promotionLine) {
+		PromotionLine = promotionLine;
+	}
+
+	public String getOfferDetails() {
+		return offerDetails;
+	}
+
+	public void setOfferDetails(String offerDetails) {
+		this.offerDetails = offerDetails;
+	}
+
+	public Date getStartdate() {
+		return startdate;
+	}
+
+	public void setStartdate(Date startdate) {
+		this.startdate = startdate;
+	}
+
+	public Brand getBrand() {
+		return brand;
+	}
+
+	public void setBrand(Brand brand) {
+		this.brand = brand;
+	}
+
+	public List<Categories> getCategories() {
+		return categories;
+	}
+
+	public void setCategories(List<Categories> categories) {
+		this.categories = categories;
+	}
+	
+	
+
+}

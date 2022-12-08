@@ -1,0 +1,5 @@
+package com.project.ecom.config;
+
+public class SwaggerConfig {
+
+}

@@ -1,0 +1,20 @@
+package com.example.mongodb.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.mongodb.model.Promotion;
+import com.example.mongodb.repository.PromotionRepository;
+
+
+@Service
+public class PromotionService {
+    @Autowired
+	private PromotionRepository  repo;
+	
+	public Promotion create(Promotion promotion) {
+		 return repo.save( promotion);
+		 
+	}
+	
+}

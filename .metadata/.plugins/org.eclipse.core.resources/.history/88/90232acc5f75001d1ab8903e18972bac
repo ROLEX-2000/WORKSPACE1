@@ -1,0 +1,3 @@
+springdoc.pathsToMatch=/api/**
+spring.data.mongodb.database=tutorialdb
+spring.data.mongodb.port=27017

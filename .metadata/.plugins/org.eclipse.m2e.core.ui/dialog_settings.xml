@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\peddada.jayav\WORKSPACE_ECLIPSE\mongodb"/>
+			<item value="C:\Users\peddada.jayav\WORKSPACE_ECLIPSE\project"/>
+			<item value="C:\Users\peddada.jayav\WORKSPACE_ECLIPSE\springboot-aws-example"/>
+			<item value="C:\Users\peddada.jayav\WORKSPACE_ECLIPSE\ecom"/>
+			<item value="C:\Users\peddada.jayav\eclipse-workspace\ECLIPSE WORKSPACE_1\spring.boot.crud.thymeleaf"/>
+			<item value="C:\Users\peddada.jayav\eclipse-workspace\ECLIPSE WORKSPACE_1\ProductREST"/>
+			<item value="C:\Users\peddada.jayav\eclipse-workspace\ECLIPSE WORKSPACE_1\spring-boot-data- mongodb"/>
+			<item value="C:\Users\peddada.jayav\WORKSPACE_ECLIPSE\ecommerce"/>
+			<item value="C:\Users\peddada.jayav\WORKSPACE_ECLIPSE\demo"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
